@@ -22,13 +22,13 @@ Craftivo is a full-stack MERN web application that connects customers with artis
 
 ## Project Structure
 
-
+```text
 Craftivo/
 ├── client/          # React frontend
 ├── server/          # Node.js and Express backend
 ├── .gitignore
 └── README.md
-
+```
 
 ## Getting Started
 
@@ -38,19 +38,19 @@ Install Node.js and MongoDB before running the project.
 
 ### 1. Clone the repository
 
-
+```bash
 git clone https://github.com/yashashree2025/Craftivo.git
 cd Craftivo
-
+```
 
 ### 2. Configure the backend
 
 Navigate to the server folder and install dependencies:
 
-
+```bash
 cd server
 npm install
-
+```
 
 Create a `.env` file inside the `server` folder with your own local configuration:
 
@@ -74,10 +74,11 @@ Use the appropriate script from `server/package.json` if your project uses a dif
 
 Open another terminal:
 
+```bash
 cd client
 npm install
 npm start
-
+```
 
 Use the appropriate script from `client/package.json` if required.
 
